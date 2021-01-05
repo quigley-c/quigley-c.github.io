@@ -1,0 +1,41 @@
+@import
+url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html, body  {
+        width:100vw;
+        height:90vh;
+}
+
+body {
+	font-family: system-ui, serif;
+	display: grid;
+	place-items: center;
+	background: white;
+	overflow: auto; 
+}
+
+.socialbar ul   {
+    list-style-type: none;
+}
+
+.socialbar li   {
+    float: left;
+    padding: 5px;
+
+}
+
+@keyframes float    {
+    from    {
+        top: -0.5vw
+    }
+    to  {
+        top: 0.5vw
+    }
+}
+
+div h1    {
+    animation-duration: 3s;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
