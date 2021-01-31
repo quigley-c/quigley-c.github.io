@@ -1,5 +1,5 @@
 @import
-url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 
 html, body  {
         width:100vw;
@@ -20,8 +20,18 @@ body {
 
 .socialbar li   {
     float: left;
-    padding: 5px;
+    padding-left: 0.5em;
+    padding-right: 5em;
 
+}
+
+.socialbar li a {
+    transition: 0.2;    
+    position: relative;
+}
+
+.socialbar li a:hover    {
+    top: -0.2vh;
 }
 
 @keyframes float    {

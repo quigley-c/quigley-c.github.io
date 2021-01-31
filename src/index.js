@@ -44,10 +44,10 @@ class Title extends React.Component  {
                 </div>
                 <div class="socialbar">
                     <ul class="social-icons">
-                        <li><a href="https://github.com/quigley-c/" class="social-icon"> <i class="fa fa-github">
+                        <li><a href="https://github.com/quigley-c/" class="social-icon"> <i class="fab fa-github-alt fa-2x">
                         </i></a></li>
 
-                        <li><a href="https://linkedin.com/in/quigley-c/" class="social-icon"> <i class="fa fa-linkedin">
+                        <li><a href="https://linkedin.com/in/quigley-c/" class="social-icon"> <i class="fab fa-linkedin fa-2x">
                         </i></a></li>
                     </ul>
                 </div>
