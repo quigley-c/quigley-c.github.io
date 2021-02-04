@@ -3,24 +3,24 @@ import ReactDOM from 'react-dom';
 import './style.css'
 
 class Title extends React.Component  {
-    
+
     constructor(props)  {
         super(props);
         this.state={
-            color: "#000000",
+            color: "#808080",
             opacity:"0",
             position:"relative",
             top:"-1.4vh",
             transition:"1s"
         };
     }
-    
+
     componentDidMount() {
         setTimeout(() => {
             this.setState({
                 opacity:1,
                 top:"0.5vh",
-                
+
                 })
             }, 10);
         }
@@ -33,7 +33,7 @@ class Title extends React.Component  {
     }
 
     floatText = () =>   {
-        
+
     }
 
     render()   {
@@ -43,13 +43,8 @@ class Title extends React.Component  {
                     <h1 style={this.state}>Carson Quigley</h1>
                 </div>
                 <div class="socialbar">
-                    <ul class="social-icons">
-                        <li><a href="https://github.com/quigley-c/" class="social-icon"> <i class="fab fa-github-alt fa-2x">
-                        </i></a></li>
-
-                        <li><a href="https://linkedin.com/in/quigley-c/" class="social-icon"> <i class="fab fa-linkedin fa-2x">
-                        </i></a></li>
-                    </ul>
+					<a href="https://github.com/quigley-c/" class="social-icon"><i class="fab fa-github-alt fa-2x"></i></a>
+					<a href="https://linkedin.com/in/quigley-c/" class="social-icon"><i class="fab fa-linkedin fa-2x"></i></a>
                 </div>
             </div>
         );
