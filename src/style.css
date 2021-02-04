@@ -17,13 +17,6 @@ body {
 	text-align: center;
 }
 
-.socialbar li   {
-    float: left;
-    padding-left: 0.5em;
-    padding-right: 5em;
-
-}
-
 .socialbar a {
 	color: #8080BB;
     transition: 0.2;
