@@ -28,6 +28,7 @@ body {
 	color: #8080BB;
     transition: 0.2;
 	padding: 0em 1em;
+	position: relative;
 }
 
 .socialbar a:hover    {
