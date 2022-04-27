@@ -9,7 +9,7 @@ body {
 	font-family: system-ui, serif;
 	display: grid;
 	place-items: center;
-	background-color: #101010;
+	background-color: #080708;
 	overflow: auto;
 }
 
@@ -18,10 +18,11 @@ body {
 }
 
 .socialbar a {
-	color: #8080BB;
+	color: #FFAA25;
     transition: 0.2;
 	padding: 0em 1em;
 	position: relative;
+
 }
 
 .socialbar a:hover    {
@@ -42,4 +43,32 @@ div h1    {
     animation-name: float;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+#btnc {
+	display: none;
+}
+
+.btn {
+	user-select: none;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+	border-radius: 8px;
+	color: #000000;
+	background-color: #888888;
+}
+
+.btn:hover {
+    top: -0.2vh;
+	background-color: #AAAAAA;
+}
+
+.btn:active {
+	background-color: #666666;
+	top: 0vw;
+}
+
+#btnc:checked + label {
 }
