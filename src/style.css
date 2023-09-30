@@ -1,45 +1,71 @@
 @import
 url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 
-html, body  {
-    height:90vh;
+html {
+  height: 300vh;
 }
 
 body {
 	font-family: system-ui, serif;
-	display: grid;
-	place-items: center;
 	background-color: #101010;
-	overflow: auto;
 }
 
-.socialbar   {
-	text-align: center;
+.container {
+  clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+}
+
+.title-container-dark {
+  background: #101010;
+  top: 0;
+}
+
+.title-container-dark .title h1 {
+  color: #AAAAAA;
+  text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-container-light {
+  background: #AAAAAA;
+  top: 100vh;
+}
+
+.title-container-light .title h1 {
+  color: #101010;
+}
+
+.title {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  top: 45%;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.socialbar {
+  position: relative;
+  width: 100%;
+  height: 44%;
+  top: 53%;
+  text-align: center;
 }
 
 .socialbar a {
-	color: #8080BB;
-    transition: 0.2;
-	padding: 0em 1em;
-	position: relative;
+  position: relative;
+  padding: 0.5em;
+  margin: auto;
+  top: 1%;
 }
 
-.socialbar a:hover    {
-    top: -0.2vh;
-}
-
-@keyframes float    {
-    from    {
-        top: -0.5vw
-    }
-    to  {
-        top: 0.5vw
-    }
-}
-
-div h1    {
-    animation-duration: 3s;
-    animation-name: float;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.socialbar a:hover {
+  top: 0%;
 }
