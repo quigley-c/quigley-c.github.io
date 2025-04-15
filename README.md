@@ -1,8 +1,15 @@
 # quigley-site
 
-To build and run locally you'll need [npm]() and [node.js]().
+## Quickstart
+Built with [Bun]{http://bun.sh}
 
-To build the site run `npm run build`
+Once installed run
+`bun run install`
+to install packages, then
+`bun run start`
+to launch the http server.
 
-To publish the site to github pages run `npm run deploy` from the root of the
-repository 
+## Github Pages
+To publish the site run
+`bun run publish`
+from the root of the repository.
