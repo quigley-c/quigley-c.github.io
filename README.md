@@ -2,7 +2,6 @@
 
 ## Quickstart
 Built with [Bun](http://bun.sh)
-
 Once installed run
 `bun install`
 to install packages, then
