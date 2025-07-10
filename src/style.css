@@ -1,13 +1,9 @@
 @import
 url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 
-html {
-  height: 300vh;
-}
-
 body {
-	font-family: system-ui, serif;
-	background-color: #101010;
+  font-family: system-ui, serif;
+  background-color: #101010;
 }
 
 .container {
@@ -31,8 +27,21 @@ body {
 }
 
 .title-container-light {
-  background: #AAAAAA;
+}
+
+.position1{
   top: 100vh;
+  background: #777777;
+}
+
+.position2{
+  top: 200vh;
+  background: #888888;
+}
+
+.position3 {
+  top: 522.33vh;
+  background: #999999;
 }
 
 .title-container-light .title h1 {
@@ -68,4 +77,39 @@ body {
 
 .socialbar a:hover {
   top: 0%;
+}
+
+.robotics-container {
+  top: 300vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.portfolio-container {
+  top: 622.33vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 50vh;
+}
+
+img {
+  border: 1px solid #FFF;
+  border-radius: 2em;
+  padding: 1em;
 }

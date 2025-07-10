@@ -4,7 +4,7 @@
 Built with [Bun]{http://bun.sh}
 
 Once installed run
-`bun run install`
+`bun install`
 to install packages, then
 `bun run start`
 to launch the http server.
