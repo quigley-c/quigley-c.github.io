@@ -1,0 +1,9 @@
+#page2-content {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 100vh;
+  height: 80vh;
+  border: solid red;
+  width: 50%;
+}

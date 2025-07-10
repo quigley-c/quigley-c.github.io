@@ -1,45 +1,115 @@
 @import
 url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 
-html, body  {
-    height:90vh;
-}
-
 body {
-	font-family: system-ui, serif;
-	display: grid;
-	place-items: center;
-	background-color: #101010;
-	overflow: auto;
+  font-family: system-ui, serif;
+  background-color: #101010;
 }
 
-.socialbar   {
-	text-align: center;
+.container {
+  clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+}
+
+.title-container-dark {
+  background: #101010;
+  top: 0;
+}
+
+.title-container-dark .title h1 {
+  color: #AAAAAA;
+  text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-container-light {
+}
+
+.position1{
+  top: 100vh;
+  background: #777777;
+}
+
+.position2{
+  top: 200vh;
+  background: #888888;
+}
+
+.position3 {
+  top: 522.33vh;
+  background: #999999;
+}
+
+.title-container-light .title h1 {
+  color: #101010;
+}
+
+.title {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  top: 45%;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.socialbar {
+  position: relative;
+  width: 100%;
+  height: 44%;
+  top: 53%;
+  text-align: center;
 }
 
 .socialbar a {
-	color: #8080BB;
-    transition: 0.2;
-	padding: 0em 1em;
-	position: relative;
+  position: relative;
+  padding: 0.5em;
+  margin: auto;
+  top: 1%;
 }
 
-.socialbar a:hover    {
-    top: -0.2vh;
+.socialbar a:hover {
+  top: 0%;
 }
 
-@keyframes float    {
-    from    {
-        top: -0.5vw
-    }
-    to  {
-        top: 0.5vw
-    }
+.robotics-container {
+  top: 300vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
 }
 
-div h1    {
-    animation-duration: 3s;
-    animation-name: float;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.portfolio-container {
+  top: 622.33vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 50vh;
+}
+
+img {
+  border: 1px solid #FFF;
+  border-radius: 2em;
+  padding: 1em;
 }
