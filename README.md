@@ -2,10 +2,11 @@
 
 ## Quickstart
 Built with [Bun](http://bun.sh)
+
 Once installed run
 `bun install`
 to install packages, then
-`bun run start`
+`bun run index.html'
 to launch the http server.
 
 ## Github Pages
