@@ -116,9 +116,13 @@ img {
   margin-bottom: 50vh;
 }
 
+.portfolio-container img:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 700px) {
   img {
-    width: 90vw;
+    width: 80vw;
   }
   img:last-child {
     margin-bottom: 0;
