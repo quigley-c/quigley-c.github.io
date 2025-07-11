@@ -10,7 +10,7 @@ body {
   clip: rect(0, auto, auto, 0);
   overflow: hidden;
   position: absolute;
-  height: 100vh;
+  height: 133vh;
   width: 100%;
   left: 0;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .position3 {
-  top: 573vh;
+  top: 550vh;
   background: #999999;
 }
 
