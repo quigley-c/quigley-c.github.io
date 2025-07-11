@@ -10,6 +10,4 @@ to install packages, then
 to launch the http server.
 
 ## Github Pages
-To publish the site run
-`bun run publish`
-from the root of the repository.
+gh-pages deploys automatically once changes are pushed to master. Note to self: review PRs carefully!!!!
