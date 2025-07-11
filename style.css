@@ -29,6 +29,10 @@ body {
 .title-container-light {
 }
 
+.title-container-light .title h1 {
+  color: #101010;
+}
+
 .position1{
   top: 100vh;
   background: #777777;
@@ -40,17 +44,32 @@ body {
 }
 
 .position3 {
-  top: 522.33vh;
+  top: 573vh;
   background: #999999;
 }
 
-.title-container-light .title h1 {
-  color: #101010;
+.robotics-container {
+  top: 300vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.portfolio-container {
+  top: 673vh;
+  left: 0;
+  background: #AAAAAA;
+  position: absolute;
+  margin: auto;
+  height: auto;
+  width: 100%;
 }
 
 .title {
   position: fixed;
-  display: block;
   margin: auto;
   width: 100%;
   top: 45%;
@@ -79,37 +98,32 @@ body {
   top: 0%;
 }
 
-.robotics-container {
-  top: 300vh;
-  left: 0;
-  background: #AAAAAA;
-  position: absolute;
-  margin: auto;
-  height: auto;
-  width: 100%;
-}
-
-.portfolio-container {
-  top: 622.33vh;
-  left: 0;
-  background: #AAAAAA;
-  position: absolute;
-  margin: auto;
-  height: auto;
-  width: 100%;
-}
-
 .img-container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  width: 100%;
   padding-top: 50vh;
+  padding-bottom: 50vh;
 }
 
 img {
   border: 1px solid #FFF;
   border-radius: 2em;
   padding: 1em;
+  width: 45vw;
+  margin-bottom: 50vh;
+}
+
+@media (max-width: 700px) {
+  img {
+    width: 90vw;
+  }
+  img:last-child {
+    margin-bottom: 0;
+  }
+
+  .portfolio-container{top: 773vh;}
+  .position3 {top: 673vh}
 }
